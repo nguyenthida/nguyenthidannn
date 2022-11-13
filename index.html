@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Nguyễn Thị Đan</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login-box">
+  <h2>Web by NT Đan</h2>
+  <form class="login-form">
+    <div class="form-group">
+      <label class="form-label" for="username">Tên Người Yêu </label>
+        <input type="text" class="form-input" id="username" />
+    </div>
+    <button type="submit" class="login-submit" onclick="start()">Xem Trái Tim</button>
+  </form>
+  <script>
+    function start(){
+      window.open('heart.html?name='+document.getElementById('username').value)
+    }
+  </script>
+</div>
+</div>
+</body>
+</html>
